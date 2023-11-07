@@ -5,6 +5,10 @@
     text-decoration: none;
     box-sizing: border-box;
 }
+.textile{
+    width: 1440px;
+    margin: 0;
+}
 .main{
 width: 1440px;
 height: 800px;
@@ -118,6 +122,10 @@ display: flex;
     width: 449px;
 height: 653px;
 flex-shrink: 0;
+}
+.second img{
+    width: 449px;
+    height: 653px;
 }
 .second h1{
     margin-top: 252.5px;
@@ -468,10 +476,10 @@ label{
 @media screen and (max-width: 830px){
     nav .menu ul {
         position:fixed;
-        top:80px;
+        top:70px;
         left:-100%;
         width: 254.077px;
-        height: 370px;
+        height:auto;
         display: block;
         background: #0F0F0F;
         text-align: center;
@@ -480,7 +488,8 @@ label{
         
         }
         nav .logo{
-            margin-left: 0px;
+            margin: 0;
+            margin-left: 50px;
         }
         nav{
             width: 100%;
@@ -491,11 +500,11 @@ label{
         }
    
     nav .menu ul li{
-        margin:25px 0;
+        margin:10px 0;
     }
     nav .navbar{
         display: flex;
-        justify-content: space-evenly;
+        justify-content: flex-start;
     }
     nav .menu ul li a{
         font-size: 25.738px;
@@ -508,36 +517,43 @@ label{
     }
     label{
         display: block;
+        margin: 0;
+
+    
+    }
+    .textile{
+        width: 100%;
+        margin: 0 auto;
+
     }
     .main{
-        width: 100%;
+        width: 360px;
+        margin: 0 ;
         height: auto;
        
       }
     .sub{
-        display: flex;
-        justify-content: center;
+        margin: 0;
+        justify-content: flex-start;
         }
     .heading{
-        margin-left: 150px;
-        margin-top: 60px;
+        margin: 0;
         width: 285.134px;
         height: 192px;
-        font-size: 78.891px;
-        text-align: center;
-        position: relative;
+        font-size: 65px;
+        position:relative;
     }
     .sub img{
-        margin-left: -260px;
-        margin-top:220px;
+        margin: 0;
         width: 477px;
         height: 651px;
+        margin-left: -300px;
+        margin-top: 100px;
     }
     .catalog{ 
         display: flex;
-        align-items: center;
-          margin-top: -40px;
-          margin-left: 120px;
+          margin: 0;
+          margin-left: 63px;
           position: relative;
     }
     .second{
@@ -546,47 +562,54 @@ label{
         display: block;
     }
     .second .image{
-        width: 100%;
+        width: 389px;
         height: 565px;
         margin: 0;
+        align-items: center;
+    }
+    .second img{
+        width: 389px;
+        height: 565px;
     }
     .second h1{
-        margin-left:0px;
-        margin-top: 100px;
-        text-align: center;
+        margin: 0;
         font-size: 27.425px;
+        margin-top: 45px;
+        margin-left: 50px;
     }
     .second p{
         font-size: 10.97px;
         width: 295px;
-        margin-left: 50px;
-        margin-top: 10px;
+        margin: 0;
+        margin-top: 50px;
+        margin-left: 5px;
     }
     .second h2{
-        text-align: center;
-        padding-top: 35px;
         margin: 0;
+        margin: 36px;
+        padding-left: 80px;
         font-size: 9.599px;
         letter-spacing: 1.92px;
         }
     .second .line{
         width: 48.679px;
         height: 0.686px;
-        margin-top: 0;
-        margin-left: 155px;
+        margin: 0;
+        margin-left: 120px;
+        margin-top: -35px;
     }    
     .third{
         width: 100%;
-        height: 100%;
+        height: auto;
     }
     .third h1{
-        margin-left: 40px;
+        margin: 0;
+        margin-top: 131px;
         text-align: center;
     }
     .wrapper{
-        display: flex;
-        width: 100%;
-        height: 100%;
+        width: 360px;
+        height: auto;
     }
     .item img{
         width: 156.949px;
@@ -597,13 +620,12 @@ label{
     }
     .more{ 
         margin: 0;
-        margin-left: 150px;
-        margin-top: -85px;
+        margin-left: 100px;
     }
     .fourth{
         margin: 0;
         width: 100%;
-        width: 100%;
+        width: auto;
     }
     .fourth .image{
         padding-top: 200px;
@@ -617,12 +639,12 @@ label{
         width: 296px;
         height: 94px;
         font-size: 77.386px;
-        margin-top:-122px;
-        margin-left: 60px;
+        margin-top: -122px;
+        margin-left: 12px;
     }
     .image1 img{
-        width: 100%;
-        height: 100%;
+        width: 300px;
+        height: 306px;
     }
     .fourth .image1{
         margin-top: 200px;
@@ -632,37 +654,40 @@ label{
         margin-top: -32px;
     }
     .fourth h2{
+        margin: 0;
         font-size: 28.709px;
         margin-top: 52px;
-        margin-left: 85px;
+        margin-left: 50px;
     }
     .fourth p{
         width: 263px;
         font-size: 13.876px;
-        margin-left: 85px;
+        margin: 0;
+        margin-top: 20px;
+        margin-left: 20px;
     }
     .image2 img{
-        width: 100%;
-        height: 100%;
-        margin-left: -30px;
-        margin-top: -120px;
+        width: 300px;
+        height: 306px;
     }
     
     .fourth .image2{
         width: 410px;
         height: 247px;
-
+       margin: 0;
+       margin-top: -100px;
     }
     #heading{
         margin: 0;
-        margin-top: -52px;
-        margin-left: 85px;
+        margin-top: 52px;
+        margin-left: 80px;
     }
     #image2para{
-        margin: 0;
         width: 263px;
         font-size: 13.876px;
-        margin-left: 85px;
+        margin: 0;
+        margin-top: 20px;
+        margin-left: 20px;
     }
     .fifth{
         width: 100%;
@@ -671,67 +696,77 @@ label{
     .fifth  h1{
         width: 258.145px;
         font-size: 51.245px;
-        margin:0;
+        margin: 0;
         margin-top: 400px;
-        margin-left: -220px;
+        margin-left: -270px;
     }
     .contact{
         display: block;
+        justify-content: flex-start;
+        margin: 0;
  
     }
     .ellipse1{
         margin: 0;
-        margin-left: -150px;
+        margin-left: -180px;
         margin-top: 86px;
     }        
     .contact .p1{
         margin: 0;
-        margin-left: -180px;
+        margin-left: -200px;
         margin-top: 10px;
 
     }
     .ellipse2{
         margin: 0;
-        margin-left: -130px;
+        margin-left: -160px;
         margin-top: 140px;
     }
     .ellipse3{
         margin: 0;
         margin-top: 140px;
-        margin-left: -120px;
+        margin-left: -160px;
 
     }
     .footer{
-        width: 360px;
+        width:360px;
         height: 179px;
+        margin: 0;
         margin-top: 670px;
-        margin-left: 30px;
     }
     .sixth{
         display: flex;
         padding: 41px 23px 66.191px 19px;
-          align-items: flex-start;
-          gap: 65px;
+        align-items: flex-start;
+          gap: 60px;
     }
     .logo h1{
         font-size: 19.213px;
+       margin: 0;
+       margin-left: 5px;
     }
     .logo p{
         width: 131px;
         font-size: 10.787px;
+        margin: 0;
+        margin-top: 20px;
+        margin-left: 5px;
     }
     .logo1 h1{
         font-size: 19.213px;
-        margin-top: 0px;
+        margin: 0;
+        margin-left: -30px;
     }
     .info{
-        margin-top: 20px;
+        margin: 0;
+        margin-left: -30px;
         font-size: 9.018px;
     }
     .info2{
-        margin-left: 0px;
+        margin: 0;
     }
     .info3{
+        margin: 0;
         margin-left: -70px;
     }
 }
